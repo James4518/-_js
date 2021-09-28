@@ -1,0 +1,23 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+#outer{
+    width:284px;
+    height:264px;
+    margin: 50px auto;
+    padding: 10px 0;
+    background-color: greenyellow;
+    position: relative;
+    overflow: hidden;                 /*裁剪溢出*/
+}
+#imgList{
+    list-style: none;                /*去除项目符号*/    
+    width: 1200px;
+    position: absolute;
+    left:0px;
+}
+#imgList li{
+    float:left;
+    margin: 0 10px 8px 10px;
+}
