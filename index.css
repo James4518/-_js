@@ -21,3 +21,19 @@
     float:left;
     margin: 0 10px 8px 10px;
 }
+#navDiv{
+    position: absolute;
+    bottom: 15px;                  
+}
+#navDiv a{
+    float: left;
+    width: 15px;
+    height: 15px;
+    background-color: red;
+    margin: 0 5px;              /*分开*/
+    opacity: 0.5;               /*设置透明*/
+    filter: alpha(opacity=50);  /*IE8透明*/
+}
+#navDiv a:hover{
+    background-color: black;
+};
